@@ -1,11 +1,45 @@
-# Sample Snack app
+# ลืมไม่ได้ (LuemMaiDai) 🌸
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+**Luem-Mai-Dai (ลืมไม่ได้)** คือแอปพลิเคชันผู้ช่วยจัดการตารางเรียน แจ้งเตือนงานค้าง และประสานงานกลุ่มสำหรับนักศึกษามหาวิทยาลัย ออกแบบมาในโทนสีพาสเทลที่ใช้งานง่าย ช่วยแก้ปัญหาการลืมส่งงาน พลาดประกาศสำคัญใน Sec หรือตื่นไปเรียนสาย โดยเชื่อมต่อและซิงค์ข้อมูลแบบ Real-time ผ่านฐานข้อมูลคลาวด์
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+---
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## ✨ ฟีเจอร์หลักของแอปพลิเคชัน (Key Features)
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+* **ระบบจัดการงานส่วนตัวและงานกลุ่ม (Task Management):** สร้าง แก้ไข และติดตามรายการงานพร้อมวันเวลาที่กำหนดส่ง แยกประเภทชัดเจนระหว่างงานส่วนตัวและงานกลุ่ม
+* **ระบบห้องกลุ่มและแชทแบบ Real-time (Study Groups & Live Chat):** สร้างกลุ่มทำงานด้วยการสุ่มรหัสเชิญ 6 หลัก เพื่อแชร์รายการงานกลุ่มและพูดคุยประสานงานกับเพื่อนในห้องแชทได้ทันที
+* **กระดานประกาศและแจ้งเตือนฉุกเฉินประจำ Sec (Sec Announcements & Sec Alert):** พื้นที่รวมข่าวสารประจำ Sec และปุ่มส่งสัญญาณแจ้งเตือนด่วน (เช่น อาจารย์เช็กชื่อกะทันหัน หรือเปลี่ยนห้องเรียน)
+* **ภารกิจตื่นเช้าไปเรียน (Wake-up Challenge):** ระบบเช็กอินตื่นนอนตอนเช้าเพื่อสะสมคะแนนความขยัน (Wake Points) พร้อมหน้าประวัติการตื่นย้อนหลัง
+* **ระบบยืนยันตัวตนและข้อมูลนักศึกษา (Authentication & Profile):** สมัครสมาชิก เข้าสู่ระบบ และจัดการข้อมูลโปรไฟล์นักศึกษา (ชื่อ-นามสกุล รหัสนักศึกษา คณะ และ Sec เรียน) อย่างปลอดภัย
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+---
+
+## 👥 รายชื่อสมาชิกในทีม (Team Members)
+
+* **นางสาว ภิษฐญา กิตติญาณ** รหัสนักศึกษา 6823765091 — Product Owner
+* **นางสาว ณัฐวดี สวัสดิ์วอ** รหัสนักศึกษา 6823765331 — Scrum Master
+* **นางสาว ตรีดาว ตันติวุฒิวร** รหัสนักศึกษา 6823765356 — Developer
+
+---
+
+## 🛠️ เทคโนโลยีที่ใช้ (Tech Stack)
+
+* **Frontend:** React Native (Expo SDK)
+* **Backend & Database:** Supabase (PostgreSQL, Supabase Auth, Row Level Security)
+* **Deployment:** Vercel (Web Hosting) & Expo Go
+
+---
+
+## 🔗 ลิงก์ทดสอบแอป (Live Preview)
+
+* **Web Application (Vercel):** https://luem-mai-dai.vercel.app
+* **Expo Snack:** https://snack.expo.dev/@natthawadee/luemmaidai
+
+---
+
+## 🚀 วิธีการติดตั้งและรันโปรเจกต์ (How to Run)
+
+1. โคลนโปรเจกต์ลงในเครื่อง:
+   ```bash
+   git clone [https://github.com/musicnattawadee/luemmaidai.git](https://github.com/musicnattawadee/luemmaidai.git)
+   cd luemmaidai
