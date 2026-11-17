@@ -21,8 +21,8 @@ const envError = (!supabaseUrl || !supabaseAnonKey)
   : '';
 
 const supabase = createClient(
-  supabaseUrl || 'https://lueauyfurtszayvfcebd.supabase.co',
-  supabaseAnonKey || 'sb_publishable_eETcQA-JPuwP0Yz7qdITiw_9egMHxcz'
+  'https://lueauyfurtszayvfcebd.supabase.co',
+  'sb_publishable_eETcQA-JPuwP0Yz7qdITiw_9egMHxcz'
 );
 
 const COLORS = {
